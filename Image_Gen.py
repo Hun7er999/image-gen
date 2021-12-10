@@ -4,7 +4,7 @@ import os
 
 w = int(input("Width: "))
 h = int(input("Height: "))
-code = random.randint(0,1000)
+code = random.randint(0,9999)
 
 img = Image.new('RGB', (w, h), "black")
 img.save(f'Generated/image_{code}.png')
